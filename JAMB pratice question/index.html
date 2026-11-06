@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAMB Practice Questions & Syllabus</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Unified Admissions & Revision</p>
+          <h1>JAMB Practice Questions & Syllabus</h1>
+        </div>
+      </header>
+
+      <main class="app">
+        <nav id="subjectNav" class="subject-nav" aria-label="Subject navigation"></nav>
+
+        <section class="toolbar">
+          <label for="yearSelect">Select year</label>
+          <select id="yearSelect" aria-label="Select JAMB year"></select>
+        </section>
+
+        <section class="panel syllabus-panel">
+          <div class="panel-header">
+            <h2 id="syllabusTitle">Syllabus</h2>
+          </div>
+          <ul id="syllabusList" class="syllabus-list"></ul>
+        </section>
+
+        <section class="panel questions-panel">
+          <div class="panel-header">
+            <h2>Practice Questions</h2>
+          </div>
+          <div id="questionContainer" class="question-container"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="scrpit.js"></script>
+  </body>
+</html>
